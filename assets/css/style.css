@@ -6912,18 +6912,18 @@ a.list-group-item-danger.active:focus {
   font-size: 13px;
   font-size: 0.8125rem;
 }
-.page-header {
+.site-header {
   text-align: center;
 }
-.page-header .site-avatar a,
-.page-header .site-avatar img {
+.site-header .site-avatar a,
+.site-header .site-avatar img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   margin: auto;
   padding: 0;
 }
-.page-header .site-avatar a {
+.site-header .site-avatar a {
   display: inline-block;
   width: 64px;
   height: 64px;
@@ -6934,7 +6934,7 @@ a.list-group-item-danger.active:focus {
   border-width: 2px;
   border-width: 0.125rem;
 }
-.page-header .site-avatar img {
+.site-header .site-avatar img {
   width: 60px;
   height: 60px;
 }
