@@ -37,20 +37,15 @@
       {{ login_form }}
 
     {% else %}
-    <div class="site-header">
-        <div class="container">
-            <div class="row">
-                <div class="sixteen columns">
-                    <h1 class="site-title">
-                        <a href="/">{{ site.name }}</a>
-                    </h1>
-                    <div class="site-avatar">
-                        <img src="{{ site.avatar }}" alt="{{ site.author }}" />
-                    </div>
-                    <p class="site-bio">{{ site.bio }}</p>
-                </div>
-            </div>
-        </div>
+    
+    <div class="page-header">
+      <h1 class="site-title">
+          <a href="/">{{ site.name }}</a>
+      </h1>
+      <div class="site-avatar">
+          <img src="{{ site.avatar }}" alt="{{ site.author }}" />
+      </div>
+      <p class="site-bio">{{ site.bio }}</p>
     </div>
     <div class="container">
         <div class="row">
